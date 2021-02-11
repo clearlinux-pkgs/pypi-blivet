@@ -4,7 +4,7 @@
 #
 Name     : blivet
 Version  : 3.3.2
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/19/b7/43d2642fdf8db1ef22476e971b2c6f21c874f66e3394292f6c6a5e626ce0/blivet-3.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/19/b7/43d2642fdf8db1ef22476e971b2c6f21c874f66e3394292f6c6a5e626ce0/blivet-3.3.2.tar.gz
 Summary  : Python module for system storage configuration
@@ -16,9 +16,11 @@ Requires: blivet-license = %{version}-%{release}
 Requires: blivet-python = %{version}-%{release}
 Requires: blivet-python3 = %{version}-%{release}
 Requires: blivet-services = %{version}-%{release}
+Requires: pygobject
 Requires: pyudev
 Requires: six
 BuildRequires : buildreq-distutils3
+BuildRequires : pygobject
 BuildRequires : pyudev
 BuildRequires : six
 Patch1: 0001-Allow-running-blivet-without-Python-SELinux-module.patch
@@ -91,7 +93,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1612228987
+export SOURCE_DATE_EPOCH=1613070357
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
