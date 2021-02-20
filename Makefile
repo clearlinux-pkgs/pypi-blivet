@@ -1,5 +1,5 @@
 PKG_NAME := blivet
-URL = https://files.pythonhosted.org/packages/19/b7/43d2642fdf8db1ef22476e971b2c6f21c874f66e3394292f6c6a5e626ce0/blivet-3.3.2.tar.gz
+URL = https://files.pythonhosted.org/packages/94/ac/a544ff839930c9497882fca40fb24542fd31f5da3f300b0cd199b2743afc/blivet-3.3.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

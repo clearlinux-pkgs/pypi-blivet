@@ -1,3 +1,27 @@
+commit 71849923e40b79bf10da749280d7d83990b0d972
+Author: Vojtech Trefny <vtrefny@redhat.com>
+Date:   Thu Feb 18 14:16:22 2021 +0100
+
+    New version: 3.3.3
+
+commit 3fe3fdd9d27732c73234a27dd05623fb8e75710e
+Merge: 0cb854e5 724855ff
+Author: Vojtech Trefny <vtrefny@redhat.com>
+Date:   Thu Feb 18 14:15:33 2021 +0100
+
+    Merge remote-tracking branch 'origin/3.3-devel' into 3.3-release
+
+commit 724855ff0c30eacab3448f66c6076151ed565e89
+Author: Michel Alexandre Salim <michel@michel-slm.name>
+Date:   Mon Feb 15 20:55:18 2021 -0800
+
+    apply compression settings from blivet.flags.btrfs_compression (#1926892)
+    
+    If `blivet.flags.btrfs_compression` is set, and unless `compress=` is
+    already explicitly set, apply it to mount options.
+    
+    Signed-off-by: Michel Alexandre Salim <michel@michel-slm.name>
+
 commit 0cb854e5f910105f18871ad5281cd4fa7009be1b
 Author: Vojtech Trefny <vtrefny@redhat.com>
 Date:   Thu Jan 14 09:43:09 2021 +0100
