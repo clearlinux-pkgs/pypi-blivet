@@ -4,7 +4,7 @@
 #
 Name     : blivet
 Version  : 3.4.2
-Release  : 16
+Release  : 17
 URL      : https://files.pythonhosted.org/packages/b5/40/037c3deb3eaf8e7ca91fa39098947537d62b8038e64ff773f0827786e3f6/blivet-3.4.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b5/40/037c3deb3eaf8e7ca91fa39098947537d62b8038e64ff773f0827786e3f6/blivet-3.4.2.tar.gz
 Summary  : Python module for system storage configuration
@@ -91,7 +91,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1633019629
+export SOURCE_DATE_EPOCH=1635707341
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
