@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-blivet
-Version  : 3.8.0
-Release  : 39
-URL      : https://files.pythonhosted.org/packages/80/e2/3c714f055f33bc7dfaa799bc641f40f568c0fa24c68b902d4c992568920f/blivet-3.8.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/80/e2/3c714f055f33bc7dfaa799bc641f40f568c0fa24c68b902d4c992568920f/blivet-3.8.0.tar.gz
+Version  : 3.8.1
+Release  : 40
+URL      : https://files.pythonhosted.org/packages/ae/30/134ad2e624012faed307b5ac854d4c977b410d77212069bbc06a34e61112/blivet-3.8.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ae/30/134ad2e624012faed307b5ac854d4c977b410d77212069bbc06a34e61112/blivet-3.8.1.tar.gz
 Summary  : Python module for system storage configuration
 Group    : Development/Tools
 License  : GPL-2.0 LGPL-2.1 LGPL-2.1+
@@ -85,10 +85,10 @@ services components for the pypi-blivet package.
 
 
 %prep
-%setup -q -n blivet-3.8.0
-cd %{_builddir}/blivet-3.8.0
+%setup -q -n blivet-3.8.1
+cd %{_builddir}/blivet-3.8.1
 pushd ..
-cp -a blivet-3.8.0 buildavx2
+cp -a blivet-3.8.1 buildavx2
 popd
 
 %build
@@ -96,7 +96,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1688054792
+export SOURCE_DATE_EPOCH=1691076733
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

@@ -1,5 +1,5 @@
 PKG_NAME := pypi-blivet
-URL = https://files.pythonhosted.org/packages/80/e2/3c714f055f33bc7dfaa799bc641f40f568c0fa24c68b902d4c992568920f/blivet-3.8.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ae/30/134ad2e624012faed307b5ac854d4c977b410d77212069bbc06a34e61112/blivet-3.8.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
