@@ -7,7 +7,7 @@
 #
 Name     : pypi-blivet
 Version  : 3.11.0
-Release  : 49
+Release  : 50
 URL      : https://files.pythonhosted.org/packages/80/67/26b7594469147844dfd2d78196d69c9a62870a5034799f43ad482cabacc6/blivet-3.11.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/80/67/26b7594469147844dfd2d78196d69c9a62870a5034799f43ad482cabacc6/blivet-3.11.0.tar.gz
 Summary  : Python module for system storage configuration
